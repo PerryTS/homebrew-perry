@@ -1,22 +1,22 @@
 class Perry < Formula
   desc "Native TypeScript compiler — compiles TypeScript to native executables"
   homepage "https://github.com/PerryTS/perry"
-  version "0.4.8"
+  version "0.4.14"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/PerryTS/perry/releases/download/v0.4.8/perry-macos-aarch64.tar.gz"
-      sha256 "83731d854d39ca885da24acbbd8b6b47745e81ec09a4d61f6d848fd4dc8db00f"
+      url "https://github.com/PerryTS/perry/releases/download/v0.4.14/perry-macos-aarch64.tar.gz"
+      sha256 "917aa421042a637e78eaadfd817ea67ea77374de2e0effd9d61d5f509be3153f"
     else
-      url "https://github.com/PerryTS/perry/releases/download/v0.4.8/perry-macos-x86_64.tar.gz"
-      sha256 "458b6fe702d6705789fed8394a8c2e12f638f72d5f3ef934fa6e00e93b2a7ad8"
+      url "https://github.com/PerryTS/perry/releases/download/v0.4.14/perry-macos-x86_64.tar.gz"
+      sha256 "ef20b53ab8bc71d9e84185638e04701ee13f63fa0df918aab9a6d871798b08c4"
     end
   end
 
   on_linux do
-    url "https://github.com/PerryTS/perry/archive/refs/tags/v0.4.8.tar.gz"
-    sha256 "497710b0db877090a00284db17514b81f4145c373bb70d2ba0494cf1505053f3"
+    url "https://github.com/PerryTS/perry/archive/refs/tags/v0.4.14.tar.gz"
+    sha256 "dbe2261ed71a9da624195807f7eff831af6401f957f40ace902d4ce6ff79df8f"
     depends_on "rust" => :build
   end
 
