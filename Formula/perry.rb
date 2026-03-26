@@ -7,10 +7,10 @@ class Perry < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/PerryTS/perry/releases/download/v0.4.21/perry-macos-aarch64.tar.gz"
-      sha256 "b66ce3e478654e42836e6eb37b9d0dab80dc236056bdfa3f8e5e781a5c42ba2b"
+      sha256 "e1992a96b99f013faaba17dc851de393af6628bebc0b8717f35becc7b0166bd4"
     else
       url "https://github.com/PerryTS/perry/releases/download/v0.4.21/perry-macos-x86_64.tar.gz"
-      sha256 "c6b91612bf3277a02b6a332765e17acec765f836a6b956e3eabb68a38991a70e"
+      sha256 "b1d57564a83bfa9f8e4dda163d00eaf492c0bfd1d851547af6b648a589deaec3"
     end
   end
 
