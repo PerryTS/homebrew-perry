@@ -7,16 +7,16 @@ class Perry < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/PerryTS/perry/releases/download/v0.4.24/perry-macos-aarch64.tar.gz"
-      sha256 "fe492b4c278c632a98badc691a4c9bf1fce24237dd4d79632758e739f742e431"
+      sha256 "3eba390d5734efa2e90e73b7f76f9703e2756bb8860976b1055ebbb208a4378b"
     else
       url "https://github.com/PerryTS/perry/releases/download/v0.4.24/perry-macos-x86_64.tar.gz"
-      sha256 "c4813ccbc69369583f524c9b112ad0c6d2bf742b5d8860c6c985ae7c686cc41e"
+      sha256 "fbba4caa413a54a25f7f9eba345d6cafb43e35223ebcade1716f904ddd569e54"
     end
   end
 
   on_linux do
     url "https://github.com/PerryTS/perry/archive/refs/tags/v0.4.24.tar.gz"
-    sha256 "d9b52a5e74cf65b122916dbe52be7b4bf8fc8963ba20dfd18efe5ec3ca8c5cf4"
+    sha256 "cf8b5dcb01b19b5841d3108cd0a69f5e320e7bbe66705e243bed4d8564bc9f2d"
     depends_on "rust" => :build
   end
 
